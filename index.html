@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiharOne QA Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BiharOne <span>QA Portal</span></h1>
+            <p>Access test credentials easily. Default password for all users is <strong>Test@123</strong></p>
+        </header>
+
+        <section class="filters">
+            <input type="text" id="searchInput" placeholder="Search by name, email or block...">
+            <select id="roleFilter">
+                <option value="ALL">All Roles</option>
+                <option value="OPERATOR_ROLE">Operator</option>
+                <option value="FIELD_OFFICER_ROLE">Field Officer</option>
+                <option value="RO_ROLE">RO</option>
+                <option value="SDO_ROLE">SDO</option>
+                <option value="DM_ROLE">DM</option>
+            </select>
+            <select id="jurisdictionFilter">
+                <option value="ALL">All Jurisdictions</option>
+                <option value="BLOCK">Block</option>
+                <option value="SUB_DISTRICT">Sub-District</option>
+                <option value="DISTRICT">District</option>
+            </select>
+        </section>
+
+        <main id="userGrid" class="user-grid">
+            <!-- Cards injected via JS -->
+        </main>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

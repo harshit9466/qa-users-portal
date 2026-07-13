@@ -1,0 +1,8 @@
+{
+  "name": "qa-users-portal",
+  "version": "1.0.0",
+  "description": "BiharOne QA Credentials Portal",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
