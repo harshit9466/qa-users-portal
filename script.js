@@ -53,7 +53,7 @@ function applyFilters() {
     const jurisdiction = jurisdictionFilter.value;
 
     const filtered = allUsers.filter(u => {
-        const matchesSearch = (u.firstName + ' ' + u.lastName + ' ' + u.email + ' ' + u.jurisdictionId).toLowerCase().includes(searchTerm);
+        const matchesSearch = (u.firstName + ' ' + u.lastName + ' ' + u.email + ' ' + u.jurisdictionId + ' ' + (u.userId || '')).toLowerCase().includes(searchTerm);
         const matchesRole = role === 'ALL' || u.roleCode === role;
         const matchesJur = jurisdiction === 'ALL' || u.jurisdictionType === jurisdiction;
         return matchesSearch && matchesRole && matchesJur;
