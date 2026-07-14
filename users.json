@@ -12,7 +12,8 @@
     "roleCode": "DM_ROLE",
     "jurisdictionType": "DISTRICT",
     "jurisdictionId": "West Champaran",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "bfa7dc41-f545-4dcc-a856-d0faebd18c45"
   },
   {
     "employeeId": "",
@@ -27,7 +28,8 @@
     "roleCode": "DM_ROLE",
     "jurisdictionType": "DISTRICT",
     "jurisdictionId": "West Champaran",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "1bf7b124-613d-44ae-b970-ea353cbb56b9"
   },
   {
     "employeeId": "",
@@ -42,7 +44,8 @@
     "roleCode": "DM_ROLE",
     "jurisdictionType": "DISTRICT",
     "jurisdictionId": "Patna",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "985de666-e346-4130-a981-bfbf26ab56b1"
   },
   {
     "employeeId": "",
@@ -57,7 +60,8 @@
     "roleCode": "DM_ROLE",
     "jurisdictionType": "DISTRICT",
     "jurisdictionId": "Patna",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "0eb3dad9-818e-45af-8962-73990313bd30"
   },
   {
     "employeeId": "",
@@ -72,7 +76,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Bagaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "af2c68d2-a0c3-4f19-a6bc-6864950673be"
   },
   {
     "employeeId": "",
@@ -87,7 +92,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Bagaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "fb0652ff-abac-4bf3-82ef-d6a1bbbe0b4f"
   },
   {
     "employeeId": "",
@@ -102,7 +108,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Narkatiaganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "186a5e11-79eb-49d0-b31b-e52e8e0f02f7"
   },
   {
     "employeeId": "",
@@ -117,7 +124,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Narkatiaganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f8b09e9d-c620-4787-b665-6a9c09fdb664"
   },
   {
     "employeeId": "",
@@ -132,7 +140,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Bettiah Sadar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "c43efbd6-f018-4b0a-a3b1-257b8ac323cb"
   },
   {
     "employeeId": "",
@@ -147,7 +156,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Bettiah Sadar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a1a79cc1-e96c-488a-af4d-044d81181797"
   },
   {
     "employeeId": "",
@@ -162,7 +172,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Patna",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "c68569dc-7314-4df9-be00-a59594521837"
   },
   {
     "employeeId": "",
@@ -177,7 +188,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Patna",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a3b261a3-6e7a-4aa1-8803-20e76aca349e"
   },
   {
     "employeeId": "",
@@ -192,7 +204,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Barh",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "6b989243-ed4d-43e2-8b4f-3152917ed898"
   },
   {
     "employeeId": "",
@@ -207,7 +220,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Barh",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "3cb61997-da85-4780-b7fc-c7d562d875c8"
   },
   {
     "employeeId": "",
@@ -222,7 +236,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Masaurhi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "2cd65060-ae59-483d-82b1-b2ada11637ac"
   },
   {
     "employeeId": "",
@@ -237,7 +252,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Masaurhi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "eeaedefa-5cfc-48e3-9804-4237f3d5c1fa"
   },
   {
     "employeeId": "",
@@ -252,7 +268,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Danapur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f5e669f6-6b1a-41f7-8219-efcecaada83f"
   },
   {
     "employeeId": "",
@@ -267,7 +284,8 @@
     "roleCode": "SDO_ROLE",
     "jurisdictionType": "SUB_DISTRICT",
     "jurisdictionId": "Danapur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "6f34bd53-650b-4e12-9a76-03b4ebd72977"
   },
   {
     "employeeId": "",
@@ -282,7 +300,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sidhaw",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "41e8366b-7b98-4cb9-ac64-f9a439783288"
   },
   {
     "employeeId": "",
@@ -297,7 +316,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sidhaw",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "04c06fec-08ed-44a1-9782-0093e209907d"
   },
   {
     "employeeId": "",
@@ -312,7 +332,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sidhaw",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "3b51dd92-e67a-4c45-829e-e9fedada443a"
   },
   {
     "employeeId": "",
@@ -327,7 +348,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-I",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b95a5e0c-1e38-4595-a943-16a8bd0bfd28"
   },
   {
     "employeeId": "",
@@ -342,7 +364,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-I",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "e1d507ce-666f-46eb-8cd2-7e3b92124424"
   },
   {
     "employeeId": "",
@@ -357,7 +380,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-I",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "71787e8f-f725-4514-93ac-720b92d13151"
   },
   {
     "employeeId": "",
@@ -372,7 +396,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-II",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "410a6df7-3f90-49d2-aacf-ee0aff3a8bc3"
   },
   {
     "employeeId": "",
@@ -387,7 +412,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-II",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "73547689-448f-428c-8e17-2ec3f8146be2"
   },
   {
     "employeeId": "",
@@ -402,7 +428,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bagaha-II",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "95d295a3-d4c0-4708-9765-2000c8753678"
   },
   {
     "employeeId": "",
@@ -417,7 +444,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bhithaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4c464e9f-83a9-45f6-9b60-85abc88e6741"
   },
   {
     "employeeId": "",
@@ -432,7 +460,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bhithaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "88126e21-fb82-4644-99d9-fef28b93d8ce"
   },
   {
     "employeeId": "",
@@ -447,7 +476,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bhithaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "da962789-76a6-4a7e-8069-969435d45356"
   },
   {
     "employeeId": "",
@@ -462,7 +492,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Madhuban",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "44d8e971-2f83-4685-bc0d-efcf8a04c8e2"
   },
   {
     "employeeId": "",
@@ -477,7 +508,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Madhuban",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "86f9c6e9-6f12-427b-bfbb-9209cfd41697"
   },
   {
     "employeeId": "",
@@ -492,7 +524,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Madhuban",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8c478844-45af-42c1-9f56-c81fee1e61db"
   },
   {
     "employeeId": "",
@@ -507,7 +540,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Piprasi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "808dc756-74c2-435c-935d-bea69214fb47"
   },
   {
     "employeeId": "",
@@ -522,7 +556,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Piprasi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "3a718588-1417-44c2-b7c5-83dacbd41a33"
   },
   {
     "employeeId": "",
@@ -537,7 +572,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Piprasi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b19524f1-f3c5-4f86-b9fb-a4578325f23f"
   },
   {
     "employeeId": "",
@@ -552,7 +588,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ramnagar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "fa51e1e5-1074-4a85-b449-5fe745fe2b1a"
   },
   {
     "employeeId": "",
@@ -567,7 +604,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ramnagar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "46b60d03-685b-40f9-8b74-0b25a0f85339"
   },
   {
     "employeeId": "",
@@ -582,7 +620,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ramnagar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "af9fbea1-f532-41f6-8578-b8f9d95e90db"
   },
   {
     "employeeId": "",
@@ -597,7 +636,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Thakrah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "22df0912-708c-466e-ba2e-b5586449e2a5"
   },
   {
     "employeeId": "",
@@ -612,7 +652,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Thakrah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "50498aae-ef9b-4a24-a670-a33171683108"
   },
   {
     "employeeId": "",
@@ -627,7 +668,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Thakrah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "161fbd14-88ed-45a9-b93b-3cae45bd8392"
   },
   {
     "employeeId": "",
@@ -642,7 +684,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Gaunaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "c27dada3-a2d0-442b-b384-e791432fad8f"
   },
   {
     "employeeId": "",
@@ -657,7 +700,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Gaunaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "588f23a0-7a84-47fa-880e-8b5316e538d0"
   },
   {
     "employeeId": "",
@@ -672,7 +716,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Gaunaha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f1d54643-da84-4809-8a3a-c14edda88753"
   },
   {
     "employeeId": "",
@@ -687,7 +732,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Lauriya",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "20e5b9a3-c558-467d-9448-4aba8ada56e2"
   },
   {
     "employeeId": "",
@@ -702,7 +748,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Lauriya",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "d6971ef8-b753-4c31-a411-bd793bacfafb"
   },
   {
     "employeeId": "",
@@ -717,7 +764,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Lauriya",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "cef47d82-0a38-436f-bb1d-aa16d8d94c9e"
   },
   {
     "employeeId": "",
@@ -732,7 +780,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mainatand",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4dc3cc64-7fb2-4490-a291-029c97b5414f"
   },
   {
     "employeeId": "",
@@ -747,7 +796,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mainatand",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "7f204903-d8f5-48dc-9178-2a6902d6d565"
   },
   {
     "employeeId": "",
@@ -762,7 +812,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mainatand",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "c9c33dbf-b2c0-4c24-9e35-d482a2faa28a"
   },
   {
     "employeeId": "",
@@ -777,7 +828,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Narkatiaganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4183df31-85e2-4fca-a101-feae84e5c93d"
   },
   {
     "employeeId": "",
@@ -792,7 +844,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Narkatiaganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "2bb366d0-589e-43e8-9530-fd0e7ca36eb7"
   },
   {
     "employeeId": "",
@@ -807,7 +860,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Narkatiaganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "13f57de0-7b9a-4d80-ac1e-fc09d0a16db3"
   },
   {
     "employeeId": "",
@@ -822,7 +876,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sikta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "6ffe1b73-5adb-4d39-8d86-3d81fec44be5"
   },
   {
     "employeeId": "",
@@ -837,7 +892,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sikta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a528a918-a2a2-4f94-8876-300ccd72fe64"
   },
   {
     "employeeId": "",
@@ -852,7 +908,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sikta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "0aadd080-3947-415d-aa5e-eccbfeff7f75"
   },
   {
     "employeeId": "",
@@ -867,7 +924,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bettiah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8ff6b324-9fd6-4d8b-8aae-24f910513a4a"
   },
   {
     "employeeId": "",
@@ -882,7 +940,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bettiah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "78de9720-afe9-4f8d-bdc5-bc311a89454a"
   },
   {
     "employeeId": "",
@@ -897,7 +956,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bettiah",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4637e709-5d97-4d0f-b2af-7704bf0d48a8"
   },
   {
     "employeeId": "",
@@ -912,7 +972,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bairia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f272a77d-d949-494a-b6a6-dce9b01dec33"
   },
   {
     "employeeId": "",
@@ -927,7 +988,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bairia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f7600796-e0c4-4808-8146-6d4fd789aef8"
   },
   {
     "employeeId": "",
@@ -942,7 +1004,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bairia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "66fd1bbe-ea78-443c-9e2c-10931a5cdb93"
   },
   {
     "employeeId": "",
@@ -957,7 +1020,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Chanpatia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ab73d3f7-d6db-4250-a32b-6d81728e8d81"
   },
   {
     "employeeId": "",
@@ -972,7 +1036,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Chanpatia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f9593368-5c7e-4b3b-8e2e-017d6275d6e9"
   },
   {
     "employeeId": "",
@@ -987,7 +1052,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Chanpatia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "23cef5fd-67ab-48e2-95c9-0b0e8e3c78c2"
   },
   {
     "employeeId": "",
@@ -1002,7 +1068,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Yogapatti",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a533497c-83f7-4871-9ec4-f670be1ab61b"
   },
   {
     "employeeId": "",
@@ -1017,7 +1084,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Yogapatti",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "505c261e-72e9-4dec-bb84-406a90ada6b7"
   },
   {
     "employeeId": "",
@@ -1032,7 +1100,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Yogapatti",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ad157b97-a275-41e4-b852-e2c9404ae600"
   },
   {
     "employeeId": "",
@@ -1047,7 +1116,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Majhaulia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ca9875ba-f82b-4701-a314-eabb574dd293"
   },
   {
     "employeeId": "",
@@ -1062,7 +1132,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Majhaulia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8c53b6a6-2237-4778-ae1a-745607b21b4d"
   },
   {
     "employeeId": "",
@@ -1077,7 +1148,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Majhaulia",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b7eafa6f-07b5-4641-bbe5-97a34df48134"
   },
   {
     "employeeId": "",
@@ -1092,7 +1164,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Nautan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "7f0f580a-a33c-49c6-b54f-0e8338c4a05d"
   },
   {
     "employeeId": "",
@@ -1107,7 +1180,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Nautan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "6164255b-52f5-418b-8143-9a260accb794"
   },
   {
     "employeeId": "",
@@ -1122,7 +1196,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Nautan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "0e1bb23b-e7e0-4c3b-8373-473d05966e8e"
   },
   {
     "employeeId": "",
@@ -1137,7 +1212,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Patna Sadar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a64160f9-4b23-499a-827e-f84291b7ef2f"
   },
   {
     "employeeId": "",
@@ -1152,7 +1228,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Patna Sadar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ce1644d0-f135-425a-8448-fc31e82c722e"
   },
   {
     "employeeId": "",
@@ -1167,7 +1244,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Patna Sadar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "cb453e38-318f-4da5-a931-92007f4b2e74"
   },
   {
     "employeeId": "",
@@ -1182,7 +1260,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Phulwari Sharif",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f7eb7dec-749f-4fd2-889a-6cc82b2b13f6"
   },
   {
     "employeeId": "",
@@ -1197,7 +1276,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Phulwari Sharif",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "d59ef121-a438-4715-8d1b-137dcd83ee36"
   },
   {
     "employeeId": "",
@@ -1212,7 +1292,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Phulwari Sharif",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "72e7fc50-87d0-4638-ad52-a07db5041e9d"
   },
   {
     "employeeId": "",
@@ -1227,7 +1308,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Naubatpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "68b7c361-8fc1-44c4-99db-5f393a5978e2"
   },
   {
     "employeeId": "",
@@ -1242,7 +1324,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Naubatpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4c08b580-0bbe-4be4-97ab-5164b4621cc5"
   },
   {
     "employeeId": "",
@@ -1257,7 +1340,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Naubatpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "57e7c987-97e7-4415-b00c-73a358c24c60"
   },
   {
     "employeeId": "",
@@ -1272,7 +1356,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Maner",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4f1d01e6-5f83-455d-a257-859e11f82f66"
   },
   {
     "employeeId": "",
@@ -1287,7 +1372,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Maner",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8c96a790-fa26-4cd0-9d73-ea3feb94d7ee"
   },
   {
     "employeeId": "",
@@ -1302,7 +1388,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Maner",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "d90c5b13-6d86-4d37-8809-7af8f4075db6"
   },
   {
     "employeeId": "",
@@ -1317,7 +1404,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sampatchak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ae9154c7-30cc-47d9-992a-b6bac86f8a9c"
   },
   {
     "employeeId": "",
@@ -1332,7 +1420,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sampatchak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "c3b29b81-d5c9-4bb4-8461-0a6eaf87ab49"
   },
   {
     "employeeId": "",
@@ -1347,7 +1436,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Sampatchak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "067480f6-92bf-4327-9c9a-013abb13a65b"
   },
   {
     "employeeId": "",
@@ -1362,7 +1452,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Danapur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8394afff-229c-4bb2-98e6-9c7594499938"
   },
   {
     "employeeId": "",
@@ -1377,7 +1468,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Danapur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "e5bdd13f-9af2-4a15-9eff-000ca82b6c06"
   },
   {
     "employeeId": "",
@@ -1392,7 +1484,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Danapur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "e8eed3d4-0b3b-4462-a842-6b8d1497e2ce"
   },
   {
     "employeeId": "",
@@ -1407,7 +1500,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dhanarua",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "4b734be9-e9b8-41d6-9f31-2ea9f6efc567"
   },
   {
     "employeeId": "",
@@ -1422,7 +1516,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dhanarua",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "1f093724-cabb-4734-aa61-952327b85d8e"
   },
   {
     "employeeId": "",
@@ -1437,7 +1532,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dhanarua",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a0c4e153-e48a-4d7f-93fc-09ba6ff1932a"
   },
   {
     "employeeId": "",
@@ -1452,7 +1548,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Barh",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "fc650279-6b07-4cd1-b51b-14c941c6679e"
   },
   {
     "employeeId": "",
@@ -1467,7 +1564,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Barh",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "3e96e779-cd52-4107-8a81-519fbd18e486"
   },
   {
     "employeeId": "",
@@ -1482,7 +1580,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Barh",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "df2014f1-875a-46a5-9da2-36921ab06346"
   },
   {
     "employeeId": "",
@@ -1497,7 +1596,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Athmalgola",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "49b069eb-e11b-43b9-a6f1-727e05507c33"
   },
   {
     "employeeId": "",
@@ -1512,7 +1612,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Athmalgola",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "34d3fef0-80e9-4850-a556-c5403a7f6df4"
   },
   {
     "employeeId": "",
@@ -1527,7 +1628,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Athmalgola",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "9ea58ad9-b93c-4263-8ce0-58bb4300a324"
   },
   {
     "employeeId": "",
@@ -1542,7 +1644,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bakhtiarpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ce3dfc03-25f8-450f-b893-f1a197c5a57d"
   },
   {
     "employeeId": "",
@@ -1557,7 +1660,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bakhtiarpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "dfcc9b3c-9cc0-4c99-92d9-656841c1ef99"
   },
   {
     "employeeId": "",
@@ -1572,7 +1676,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bakhtiarpur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a3929776-5ffd-4e6b-9e5d-2ba9c00a413a"
   },
   {
     "employeeId": "",
@@ -1587,7 +1692,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Belchi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "bf14f453-3e07-4c7b-a36a-c2813fb05275"
   },
   {
     "employeeId": "",
@@ -1602,7 +1708,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Belchi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "3c52b6db-7cb1-4ec9-b922-eec4adf830b8"
   },
   {
     "employeeId": "",
@@ -1617,7 +1724,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Belchi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "15f552e4-f68c-452c-b5dd-6fc582769e75"
   },
   {
     "employeeId": "",
@@ -1632,7 +1740,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bihta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "140727d6-3451-4ace-9481-cac17108ac75"
   },
   {
     "employeeId": "",
@@ -1647,7 +1756,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bihta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "867bd0d1-3fca-4610-aa7b-f7059a2edeb8"
   },
   {
     "employeeId": "",
@@ -1662,7 +1772,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bihta",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "fb37ea26-8bda-4336-9f6a-eec8cc6490b5"
   },
   {
     "employeeId": "",
@@ -1677,7 +1788,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Fatuha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ed538767-6d18-411b-b74c-b31d509ffd1c"
   },
   {
     "employeeId": "",
@@ -1692,7 +1804,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Fatuha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "9664efc8-8c6a-4f16-a63a-65d0c7ebf40d"
   },
   {
     "employeeId": "",
@@ -1707,7 +1820,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Fatuha",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "448621ca-09b5-4ad4-8a7e-4f6563674e94"
   },
   {
     "employeeId": "",
@@ -1722,7 +1836,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Khusrupur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f1aaf346-eac1-4be9-b44b-ab544940be92"
   },
   {
     "employeeId": "",
@@ -1737,7 +1852,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Khusrupur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "5bc2a37d-9776-47f0-8beb-67cd26a367c2"
   },
   {
     "employeeId": "",
@@ -1752,7 +1868,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Khusrupur",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "bd7b96e0-1b8b-4de5-8a4f-b14ef968a16f"
   },
   {
     "employeeId": "",
@@ -1767,7 +1884,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mokama",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8cad5dbf-85af-4617-a885-bcb765c8a36c"
   },
   {
     "employeeId": "",
@@ -1782,7 +1900,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mokama",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "12eb55a0-b010-4a85-aa22-c71d5d9b38f9"
   },
   {
     "employeeId": "",
@@ -1797,7 +1916,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Mokama",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "6d6b40b4-51b7-4370-9635-5b0591ecd113"
   },
   {
     "employeeId": "",
@@ -1812,7 +1932,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Pandarak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "0a757fe8-9b76-48a6-acd1-e8b9dce8ed38"
   },
   {
     "employeeId": "",
@@ -1827,7 +1948,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Pandarak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ecd04467-fb84-4e32-930b-11a401ec3506"
   },
   {
     "employeeId": "",
@@ -1842,7 +1964,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Pandarak",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "99f3f983-538f-476d-81de-f0908db8cdbc"
   },
   {
     "employeeId": "",
@@ -1857,7 +1980,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Masaurhi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "be1273cf-d403-4e3a-8b10-95cd908b9ef2"
   },
   {
     "employeeId": "",
@@ -1872,7 +1996,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Masaurhi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "7e8d62e5-ed14-4905-9812-850137b212da"
   },
   {
     "employeeId": "",
@@ -1887,7 +2012,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Masaurhi",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "ffb457a6-4aaa-467c-b70e-95ff56e4d5f9"
   },
   {
     "employeeId": "",
@@ -1902,7 +2028,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bikram",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "05d60922-4386-4f5c-8af1-1c0ad0a7906d"
   },
   {
     "employeeId": "",
@@ -1917,7 +2044,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bikram",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "d4d866cc-00be-4332-b329-395b003d4bfa"
   },
   {
     "employeeId": "",
@@ -1932,7 +2060,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Bikram",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b55aed89-cc3b-4a25-8596-4a12747faa7a"
   },
   {
     "employeeId": "",
@@ -1947,7 +2076,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dulhin Bazar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "daadacb0-a5a5-4ffa-8d24-7b4a9ca5663e"
   },
   {
     "employeeId": "",
@@ -1962,7 +2092,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dulhin Bazar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "e0ccf3ed-bb33-49be-9700-723e86daac1d"
   },
   {
     "employeeId": "",
@@ -1977,7 +2108,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Dulhin Bazar",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b52ffba5-76ab-44f0-a2ca-097d721c05f8"
   },
   {
     "employeeId": "",
@@ -1992,7 +2124,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Daniyawan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f96eee71-3808-4916-86e8-f0bf69791244"
   },
   {
     "employeeId": "",
@@ -2007,7 +2140,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Daniyawan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b80c4079-c79c-4517-8996-92234519779f"
   },
   {
     "employeeId": "",
@@ -2022,7 +2156,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Daniyawan",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "2441ee67-4859-42ac-b5e0-092e245d1de5"
   },
   {
     "employeeId": "",
@@ -2037,7 +2172,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Paliganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "10227bf7-4052-43ae-83ff-c55cc04542de"
   },
   {
     "employeeId": "",
@@ -2052,7 +2188,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Paliganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8b424261-e53e-4146-bf5f-b6ae501e9687"
   },
   {
     "employeeId": "",
@@ -2067,7 +2204,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Paliganj",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "a52163f8-49c4-4391-8c48-5ddd703c8c1d"
   },
   {
     "employeeId": "",
@@ -2082,7 +2220,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Punpun",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "f5ab4223-8f08-4c99-9e41-de161294ed9e"
   },
   {
     "employeeId": "",
@@ -2097,7 +2236,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Punpun",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "887b8302-4300-4ca0-9782-e54652d46fcf"
   },
   {
     "employeeId": "",
@@ -2112,7 +2252,8 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Punpun",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "22c85a69-620c-4099-b1ce-358e0c9201fe"
   },
   {
     "employeeId": "",
@@ -2127,7 +2268,8 @@
     "roleCode": "OPERATOR_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ghoswari",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "8e6ccee4-506e-4aec-8a5f-1dae15e188e2"
   },
   {
     "employeeId": "",
@@ -2142,7 +2284,8 @@
     "roleCode": "FIELD_OFFICER_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ghoswari",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "fb1c00b5-4b8a-4336-868b-1f7e99e10171"
   },
   {
     "employeeId": "",
@@ -2157,6 +2300,7 @@
     "roleCode": "RO_ROLE",
     "jurisdictionType": "BLOCK",
     "jurisdictionId": "Ghoswari",
-    "serviceCodes": ""
+    "serviceCodes": "",
+    "userId": "b6ce335d-4190-4a9b-94dc-4315c3bf9417"
   }
 ]

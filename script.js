@@ -39,7 +39,8 @@ function renderUsers(users) {
             <div class="card-detail">Jur. Type: <span>${u.jurisdictionType}</span></div>
             <div class="card-detail">Jurisdiction: <span>${u.jurisdictionId}</span></div>
             <div class="card-detail">Email: <span>${u.email}</span></div>
-            <button class="copy-btn" onclick="copyCreds('${u.email}')">Copy Login</button>
+            <div class="card-detail">ID: <span style="font-size:11px; word-break:break-all;">${u.userId || 'N/A'}</span></div>
+            <button class="copy-btn" onclick="copyCreds('${u.email}', '${u.userId || ''}')">Copy Login</button>
         `;
         userGrid.appendChild(card);
     });
@@ -67,8 +68,8 @@ roleFilter.addEventListener('change', applyFilters);
 jurisdictionFilter.addEventListener('change', applyFilters);
 
 // Copy functionality
-window.copyCreds = function(email) {
-    const textToCopy = `Email: ${email}\nPassword: Test@123`;
+window.copyCreds = function(email, userId) {
+    const textToCopy = `Email: ${email}\nPassword: Test@123\nUser ID: ${userId}`;
     navigator.clipboard.writeText(textToCopy).then(() => {
         showToast();
     });
