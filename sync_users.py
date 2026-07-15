@@ -82,12 +82,26 @@ def sync_users():
         conn.close()
 
         print(f"Fetched {len(portal_users)} users. Updating {USERS_JSON_PATH}...")
+        
+        # Backup old users.json
+        if os.path.exists(USERS_JSON_PATH):
+            import datetime
+            import shutil
+            backup_dir = "previous_versions"
+            os.makedirs(backup_dir, exist_ok=True)
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            backup_file = os.path.join(backup_dir, f"users_{timestamp}.json")
+            shutil.copy2(USERS_JSON_PATH, backup_file)
+            print(f"Backed up old users.json to {backup_file}")
+            
         with open(USERS_JSON_PATH, 'w', encoding='utf-8') as f:
             json.dump(portal_users, f, indent=2)
 
         print("Committing and pushing to GitHub...")
         subprocess.run(["git", "add", USERS_JSON_PATH], check=True)
-        subprocess.run(["git", "commit", "-m", "Auto-sync users from DB via script"], check=False)
+        if os.path.exists("previous_versions"):
+            subprocess.run(["git", "add", "previous_versions/"], check=True)
+        subprocess.run(["git", "commit", "-m", "Auto-sync users from DB and backup old version"], check=False)
         subprocess.run(["git", "push", "origin", "main"], check=True)
         
         print("\n✅ Sync Complete! Website will update in 1-2 minutes.")
