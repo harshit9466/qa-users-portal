@@ -109,6 +109,8 @@ def sync_users():
     except Exception as e:
         print(f"\nERROR: {str(e)}")
         print("Please check your DB credentials or VPN connection.")
+    finally:
+        input("\nPress Enter to exit...")
 
 if __name__ == "__main__":
     sync_users()
