@@ -82,6 +82,23 @@ def main():
         print(f"Fetched {len(portal_users)} users. Updating {USERS_JSON_PATH}...")
         
         if os.path.exists(USERS_JSON_PATH):
+            try:
+                with open(USERS_JSON_PATH, 'r', encoding='utf-8') as f:
+                    old_data = json.load(f)
+                old_keys = set([f"{u.get('userId', '')}_{u.get('roleCode', '')}_{u.get('jurisdictionId', '')}" for u in old_data])
+                
+                new_users = [u for u in portal_users if f"{u.get('userId', '')}_{u.get('roleCode', '')}_{u.get('jurisdictionId', '')}" not in old_keys]
+                
+                if new_users:
+                    print(f"\n[NEW] You have {len(new_users)} NEW user assignments added to the portal:")
+                    for nu in new_users:
+                        print(f"      + {nu['firstName']} {nu['lastName']} -> {nu['designationCode']} ({nu['jurisdictionId']})")
+                    print()
+                else:
+                    print("\n[INFO] No new users were found this time.\n")
+            except Exception as ex:
+                print(f"[WARN] Could not compare with old data: {ex}")
+
             backup_dir = "previous_versions"
             os.makedirs(backup_dir, exist_ok=True)
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
