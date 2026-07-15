@@ -1,56 +1,63 @@
-import json
-import subprocess
-import psycopg2
 import os
+import sys
 
-# ==========================================
-# CONFIGURATION
-# ==========================================
-DB_HOST = "10.10.8.158" 
-DB_PORT = "5432"
-DB_NAME = "biharone_dev" 
-DB_USER = "biharone_dev_user" # Apna DB user dalein (e.g. postgres)
-DB_PASS = "Biharone#$158dev" # Apna password dalein
+# Windows double-click safe: set correct working directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-USERS_JSON_PATH = "users.json"
-# ==========================================
-
-VALID_DISTRICT_BLOCK_IDS = [
-    '1', '3', '400', '401', '402', '464', '465', '466', '467',
-    '1585', '1586', '1587', '1588', '1589', '1590', '1591', '1592', '1593', '1594', '1595', '1596', '1597', '1598', '1599', '1600', '1601', '1602', '1603',
-    '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982'
-]
-
-VALID_PS_IDS = [
-    '549', '550', '551', '552', '553', '554', '555', '556', '557', '558', '561', '562', '563', '564', '565', '566', '567', '568', '569', '570', '571', '572', '574', '575', '576', '579', '580', '582', '584', '586', '588', '589', '590', '592', '593', '594', '597', '581', '577', '573', '559', '595', '578', '591', '596', '587', '585', '583', '560', '852', '851', '853', '854', '855', '863', '856', '859', '857', '860', '861', '858', '872', '869', '873', '871', '874', '864', '865', '866', '862', '870', '867', '868', '877', '878', '875', '876'
-]
-
-QUERY = f"""
-SELECT 
-    uwc.user_id, 
-    uwc.department_id, 
-    uwc.role_code, 
-    uwc.jurisdiction_type, 
-    uwc.jurisdiction_id,
-    u.first_name,
-    u.last_name,
-    u.email
-FROM public.user_workload_capacity uwc
-JOIN iam_service.users u ON uwc.user_id::varchar = u.id::varchar
-WHERE (
-    (uwc.jurisdiction_type IN ('DISTRICT', 'SUB_DISTRICT', 'BLOCK') AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_DISTRICT_BLOCK_IDS])}))
-    OR
-    (uwc.jurisdiction_type = 'POLICE_STATION' AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_PS_IDS])}))
-)
-"""
-
-def sync_users():
-    print("Connecting to database...")
+def main():
     try:
-        conn = psycopg2.connect(
-            host=DB_HOST, port=DB_PORT, dbname=DB_NAME, user=DB_USER, password=DB_PASS
+        import json
+        import subprocess
+        import datetime
+        import shutil
+        
+        try:
+            import psycopg2
+        except ImportError:
+            print("❌ ERROR: 'psycopg2-binary' module is not installed for this Python environment.")
+            print("Please open CMD in this folder and run: pip install psycopg2-binary")
+            return
+
+        # ==========================================
+        # CONFIGURATION
+        # ==========================================
+        DB_HOST = "10.10.8.158" 
+        DB_PORT = "5432"
+        DB_NAME = "biharone_dev" 
+        DB_USER = "postgres" 
+        DB_PASS = "postgres" 
+        
+        USERS_JSON_PATH = "users.json"
+        # ==========================================
+        
+        VALID_DISTRICT_BLOCK_IDS = [
+            '1', '3', '400', '401', '402', '464', '465', '466', '467',
+            '1585', '1586', '1587', '1588', '1589', '1590', '1591', '1592', '1593', '1594', '1595', '1596', '1597', '1598', '1599', '1600', '1601', '1602', '1603',
+            '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982'
+        ]
+        
+        VALID_PS_IDS = [
+            '549', '550', '551', '552', '553', '554', '555', '556', '557', '558', '561', '562', '563', '564', '565', '566', '567', '568', '569', '570', '571', '572', '574', '575', '576', '579', '580', '582', '584', '586', '588', '589', '590', '592', '593', '594', '597', '581', '577', '573', '559', '595', '578', '591', '596', '587', '585', '583', '560', '852', '851', '853', '854', '855', '863', '856', '859', '857', '860', '861', '858', '872', '869', '873', '871', '874', '864', '865', '866', '862', '870', '867', '868', '877', '878', '875', '876'
+        ]
+        
+        QUERY = f"""
+        SELECT 
+            uwc.user_id, uwc.department_id, uwc.role_code, 
+            uwc.jurisdiction_type, uwc.jurisdiction_id,
+            u.first_name, u.last_name, u.email
+        FROM public.user_workload_capacity uwc
+        JOIN iam_service.users u ON uwc.user_id::varchar = u.id::varchar
+        WHERE (
+            (uwc.jurisdiction_type IN ('DISTRICT', 'SUB_DISTRICT', 'BLOCK') AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_DISTRICT_BLOCK_IDS])}))
+            OR
+            (uwc.jurisdiction_type = 'POLICE_STATION' AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_PS_IDS])}))
         )
+        """
+        
+        print("Connecting to database...")
+        conn = psycopg2.connect(host=DB_HOST, port=DB_PORT, dbname=DB_NAME, user=DB_USER, password=DB_PASS)
         cur = conn.cursor()
+        
         print("Running query to fetch valid users...")
         cur.execute(QUERY)
         rows = cur.fetchall()
@@ -58,24 +65,14 @@ def sync_users():
         portal_users = []
         for row in rows:
             uid, dept_id, role, jur_type, jur_id, fname, lname, email = row
-            
             desig = role.replace("_ROLE", "")
-            if desig.endswith("_HOME"):
-                desig = desig.replace("_HOME", "")
+            if desig.endswith("_HOME"): desig = desig.replace("_HOME", "")
 
             portal_users.append({
-                "employeeId": "",
-                "firstName": fname,
-                "middleName": "",
-                "lastName": lname if lname else "",
-                "email": email,
-                "mobile": "9999999999",
-                "roleCode": role,
-                "jurisdictionType": jur_type,
-                "jurisdictionId": jur_id,
-                "designationCode": desig,
-                "userId": uid,
-                "departmentId": dept_id
+                "employeeId": "", "firstName": fname, "middleName": "",
+                "lastName": lname if lname else "", "email": email, "mobile": "9999999999",
+                "roleCode": role, "jurisdictionType": jur_type, "jurisdictionId": jur_id,
+                "designationCode": desig, "userId": uid, "departmentId": dept_id
             })
             
         cur.close()
@@ -83,10 +80,7 @@ def sync_users():
 
         print(f"Fetched {len(portal_users)} users. Updating {USERS_JSON_PATH}...")
         
-        # Backup old users.json
         if os.path.exists(USERS_JSON_PATH):
-            import datetime
-            import shutil
             backup_dir = "previous_versions"
             os.makedirs(backup_dir, exist_ok=True)
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -107,10 +101,12 @@ def sync_users():
         print("\nSUCCESS: Sync Complete! Website will update in 1-2 minutes.")
 
     except Exception as e:
-        print(f"\nERROR: {str(e)}")
-        print("Please check your DB credentials or VPN connection.")
-    finally:
-        input("\nPress Enter to exit...")
+        import traceback
+        print("\n================== ERROR OCCURRED ==================")
+        traceback.print_exc()
+        print("====================================================")
+        print("Please check your DB credentials, VPN connection, or Git setup.")
 
 if __name__ == "__main__":
-    sync_users()
+    main()
+    input("\nPress Enter to exit...")
