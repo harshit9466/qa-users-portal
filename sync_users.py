@@ -14,9 +14,10 @@ def main():
         try:
             import psycopg2
         except ImportError:
-            print("❌ ERROR: 'psycopg2-binary' module is not installed for this Python environment.")
-            print("Please open CMD in this folder and run: pip install psycopg2-binary")
-            return
+            print("[INFO] 'psycopg2-binary' is missing. Auto-installing it for your Python environment...")
+            subprocess.check_call([sys.executable, "-m", "pip", "install", "psycopg2-binary", "-q"])
+            print("[SUCCESS] Installation successful. Continuing sync...\n")
+            import psycopg2
 
         # ==========================================
         # CONFIGURATION
