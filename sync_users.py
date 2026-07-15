@@ -6,11 +6,11 @@ import os
 # ==========================================
 # CONFIGURATION
 # ==========================================
-DB_HOST = "localhost" # Ise change karein (e.g. 192.168.1.100)
+DB_HOST = "10.10.8.158" 
 DB_PORT = "5432"
-DB_NAME = "biharone_db" # Apna DB name dalein
-DB_USER = "postgres" # Apna DB user dalein
-DB_PASS = "postgres" # Apna password dalein
+DB_NAME = "biharone_dev" 
+DB_USER = "biharone_dev_user" # Apna DB user dalein (e.g. postgres)
+DB_PASS = "Biharone#$158dev" # Apna password dalein
 
 USERS_JSON_PATH = "users.json"
 # ==========================================
@@ -104,10 +104,10 @@ def sync_users():
         subprocess.run(["git", "commit", "-m", "Auto-sync users from DB and backup old version"], check=False)
         subprocess.run(["git", "push", "origin", "main"], check=True)
         
-        print("\n✅ Sync Complete! Website will update in 1-2 minutes.")
+        print("\nSUCCESS: Sync Complete! Website will update in 1-2 minutes.")
 
     except Exception as e:
-        print(f"\n❌ ERROR: {str(e)}")
+        print(f"\nERROR: {str(e)}")
         print("Please check your DB credentials or VPN connection.")
 
 if __name__ == "__main__":
