@@ -2639,5 +2639,33 @@
     "designationCode": "SP",
     "userId": "548249e9-6743-455d-b4e7-8b37f343ea1c",
     "departmentId": "HOME"
+  },
+  {
+    "employeeId": "",
+    "firstName": "Ranjan",
+    "middleName": "",
+    "lastName": "Kumar",
+    "email": "ranjan1.kumar9006@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "SHO_ROLE",
+    "jurisdictionType": "POLICE_STATION",
+    "jurisdictionId": "549",
+    "designationCode": "SHO",
+    "userId": "380af1a3-4313-4ff5-a53c-a5469abc3664",
+    "departmentId": "HOME"
+  },
+  {
+    "employeeId": "",
+    "firstName": "Rajesh",
+    "middleName": "",
+    "lastName": "Kumar",
+    "email": "rajesh1.kumar@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "FIELD_OFFICER_ROLE_HOME",
+    "jurisdictionType": "POLICE_STATION",
+    "jurisdictionId": "549",
+    "designationCode": "FIELD_OFFICER",
+    "userId": "56a8e215-a975-4926-8b10-fb3f35ba8e00",
+    "departmentId": "HOME"
   }
 ]
