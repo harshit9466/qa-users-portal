@@ -79,8 +79,9 @@ def main():
         cur.close()
         conn.close()
 
-        print(f"Fetched {len(portal_users)} users. Updating {USERS_JSON_PATH}...")
+        print(f"Fetched {len(portal_users)} users from Database.")
         
+        needs_update = True
         if os.path.exists(USERS_JSON_PATH):
             try:
                 with open(USERS_JSON_PATH, 'r', encoding='utf-8') as f:
@@ -94,11 +95,19 @@ def main():
                     for nu in new_users:
                         print(f"      + {nu['firstName']} {nu['lastName']} -> {nu['designationCode']} ({nu['jurisdictionId']})")
                     print()
+                elif len(portal_users) != len(old_data):
+                    print(f"\n[INFO] User count changed from {len(old_data)} to {len(portal_users)}. Updating portal.\n")
                 else:
-                    print("\n[INFO] No new users were found this time.\n")
+                    print("\n[INFO] No new users or changes were found. Everything is already up-to-date!")
+                    needs_update = False
             except Exception as ex:
                 print(f"[WARN] Could not compare with old data: {ex}")
 
+        if not needs_update:
+            return
+            
+        print(f"Updating {USERS_JSON_PATH} and creating backup...")
+        if os.path.exists(USERS_JSON_PATH):
             backup_dir = "previous_versions"
             os.makedirs(backup_dir, exist_ok=True)
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
