@@ -85,6 +85,34 @@
   },
   {
     "employeeId": "",
+    "firstName": "Suresh",
+    "middleName": "",
+    "lastName": "Prasad",
+    "email": "suresh.prasad280@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "OPERATOR_ROLE",
+    "jurisdictionType": "BLOCK",
+    "jurisdictionId": "1600",
+    "designationCode": "OPERATOR",
+    "userId": "aa494c62-e114-42a7-ac63-70dc075f3489",
+    "departmentId": "GAD"
+  },
+  {
+    "employeeId": "",
+    "firstName": "Mukesh",
+    "middleName": "",
+    "lastName": "Sinha",
+    "email": "mukesh.sinha643@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "RO_ROLE",
+    "jurisdictionType": "BLOCK",
+    "jurisdictionId": "1600",
+    "designationCode": "RO",
+    "userId": "79807342-b38a-495f-a89c-84bc80e0e614",
+    "departmentId": "GAD"
+  },
+  {
+    "employeeId": "",
     "firstName": "Meena",
     "middleName": "",
     "lastName": "Das",
@@ -113,20 +141,6 @@
   },
   {
     "employeeId": "",
-    "firstName": "Ravi",
-    "middleName": "",
-    "lastName": "Sharma",
-    "email": "ravi.sharma370@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "DM_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "3",
-    "designationCode": "DM",
-    "userId": "985de666-e346-4130-a981-bfbf26ab56b1",
-    "departmentId": "GAD"
-  },
-  {
-    "employeeId": "",
     "firstName": "Vikram",
     "middleName": "",
     "lastName": "Verma",
@@ -151,6 +165,20 @@
     "jurisdictionId": "1",
     "designationCode": "DM",
     "userId": "1bf7b124-613d-44ae-b970-ea353cbb56b9",
+    "departmentId": "GAD"
+  },
+  {
+    "employeeId": "",
+    "firstName": "Ravi",
+    "middleName": "",
+    "lastName": "Sharma",
+    "email": "ravi.sharma370@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "DM_ROLE",
+    "jurisdictionType": "DISTRICT",
+    "jurisdictionId": "3",
+    "designationCode": "DM",
+    "userId": "985de666-e346-4130-a981-bfbf26ab56b1",
     "departmentId": "GAD"
   },
   {
@@ -193,34 +221,6 @@
     "jurisdictionId": "1600",
     "designationCode": "FIELD_OFFICER",
     "userId": "f2040a13-c7a8-4ecb-ac06-892980e21153",
-    "departmentId": "GAD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Mukesh",
-    "middleName": "",
-    "lastName": "Sinha",
-    "email": "mukesh.sinha643@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "RO_ROLE",
-    "jurisdictionType": "BLOCK",
-    "jurisdictionId": "1600",
-    "designationCode": "RO",
-    "userId": "79807342-b38a-495f-a89c-84bc80e0e614",
-    "departmentId": "GAD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Suresh",
-    "middleName": "",
-    "lastName": "Prasad",
-    "email": "suresh.prasad280@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "OPERATOR_ROLE",
-    "jurisdictionType": "BLOCK",
-    "jurisdictionId": "1600",
-    "designationCode": "OPERATOR",
-    "userId": "aa494c62-e114-42a7-ac63-70dc075f3489",
     "departmentId": "GAD"
   },
   {
@@ -375,6 +375,20 @@
     "jurisdictionId": "467",
     "designationCode": "SDO",
     "userId": "6f34bd53-650b-4e12-9a76-03b4ebd72977",
+    "departmentId": "GAD"
+  },
+  {
+    "employeeId": "",
+    "firstName": "Ramesh",
+    "middleName": "",
+    "lastName": "Yadav",
+    "email": "ramesh.yadav566@yopmail.com",
+    "mobile": "9999999999",
+    "roleCode": "RO_ROLE",
+    "jurisdictionType": "BLOCK",
+    "jurisdictionId": "1587",
+    "designationCode": "RO",
+    "userId": "3b51dd92-e67a-4c45-829e-e9fedada443a",
     "departmentId": "GAD"
   },
   {
@@ -613,20 +627,6 @@
     "jurisdictionId": "464",
     "designationCode": "SDO",
     "userId": "a3b261a3-6e7a-4aa1-8803-20e76aca349e",
-    "departmentId": "GAD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Ramesh",
-    "middleName": "",
-    "lastName": "Yadav",
-    "email": "ramesh.yadav566@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "RO_ROLE",
-    "jurisdictionType": "BLOCK",
-    "jurisdictionId": "1587",
-    "designationCode": "RO",
-    "userId": "3b51dd92-e67a-4c45-829e-e9fedada443a",
     "departmentId": "GAD"
   },
   {
@@ -2336,61 +2336,5 @@
     "designationCode": "FIELD_OFFICER",
     "userId": "56a8e215-a975-4926-8b10-fb3f35ba8e00",
     "departmentId": "HOME"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Ranbir",
-    "middleName": "",
-    "lastName": "Singh",
-    "email": "ranbir.singh9003@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "BOILER_INSPECTOR_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "3",
-    "designationCode": "BOILER_INSPECTOR",
-    "userId": "414acc48-a820-458b-ac25-f9113f487a01",
-    "departmentId": "LRD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Jagdeep",
-    "middleName": "",
-    "lastName": "Mehta",
-    "email": "jagdeep.mehta9004@bihar.gov.in",
-    "mobile": "9999999999",
-    "roleCode": "CHIEF_BOILER_INSPECTOR_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "3",
-    "designationCode": "CHIEF_BOILER_INSPECTOR",
-    "userId": "5980781e-4e0d-4e39-93c5-ef15653de2ef",
-    "departmentId": "LRD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Rajesh",
-    "middleName": "",
-    "lastName": "Singh",
-    "email": "rajesh.singh9003@yopmail.com",
-    "mobile": "9999999999",
-    "roleCode": "BOILER_INSPECTOR_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "1",
-    "designationCode": "BOILER_INSPECTOR",
-    "userId": "d3a1d2e0-f7f2-46ff-b0d1-dc2ef734a928",
-    "departmentId": "LRD"
-  },
-  {
-    "employeeId": "",
-    "firstName": "Gopal",
-    "middleName": "",
-    "lastName": "Mehta",
-    "email": "gopal.mehta9004@bihar.gov.in",
-    "mobile": "9999999999",
-    "roleCode": "CHIEF_BOILER_INSPECTOR_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "1",
-    "designationCode": "CHIEF_BOILER_INSPECTOR",
-    "userId": "af2ffbdb-288a-4f0b-91a0-8d2b4b227101",
-    "departmentId": "LRD"
   }
 ]
