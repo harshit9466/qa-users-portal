@@ -183,20 +183,6 @@
   },
   {
     "employeeId": "",
-    "firstName": "Dm",
-    "middleName": "",
-    "lastName": "Ey",
-    "email": "dm_ey@gmail.com",
-    "mobile": "9999999999",
-    "roleCode": "DM_ROLE",
-    "jurisdictionType": "DISTRICT",
-    "jurisdictionId": "3_chnaged_for_demo",
-    "designationCode": "DM",
-    "userId": "8be70a29-b9ba-4f53-bea4-c63611e45f62",
-    "departmentId": "GAD"
-  },
-  {
-    "employeeId": "",
     "firstName": "Anil",
     "middleName": "",
     "lastName": "Verma",
