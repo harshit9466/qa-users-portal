@@ -41,6 +41,18 @@ def main():
             '549', '550', '551', '552', '553', '554', '555', '556', '557', '558', '561', '562', '563', '564', '565', '566', '567', '568', '569', '570', '571', '572', '574', '575', '576', '579', '580', '582', '584', '586', '588', '589', '590', '592', '593', '594', '597', '581', '577', '573', '559', '595', '578', '591', '596', '587', '585', '583', '560', '852', '851', '853', '854', '855', '863', '856', '859', '857', '860', '861', '858', '872', '869', '873', '871', '874', '864', '865', '866', '862', '870', '867', '868', '877', '878', '875', '876'
         ]
         
+        EXTRA_USER_IDS = [
+            '99e9e7d2-f0e6-4c7b-b86e-507e8aaa18f9', '876a0349-a5f6-4578-b5ec-2e1646dc83d9', 
+            '8876fef6-c92e-43d2-a1a3-5b975f63b6da', '12669403-e478-4222-b8e5-b383b64c4e43', 
+            '3e5451c5-e156-472f-8434-7af99f63e5c5', '42987414-5fd0-479a-8915-13b05fff8353', 
+            'faec0961-c8e3-4fc0-a19f-668823708b12', '0eb3dad9-818e-45af-8962-73990313bd30', 
+            '548249e9-6743-455d-b4e7-8b37f343ea1c', '3f2dd9ce-09b7-4b13-a0d2-3b0ef9a02484', 
+            '10cc5afa-166c-4e59-b0d5-506947022cdb', '414acc48-a820-458b-ac25-f9113f487a01', 
+            '5980781e-4e0d-4e39-93c5-ef15653de2ef', 'c8db46c1-4f11-45ff-b2bc-ab29b83e8009', 
+            '53e749d6-dcab-4ed3-832b-ef459bbe1273', '5aa17db3-9d8f-4a04-8c6f-0d6fd440b2c4', 
+            '33324b7d-44b9-4203-81fa-acfb1b29025e'
+        ]
+        
         QUERY = f"""
         SELECT 
             uwc.user_id, uwc.department_id, uwc.role_code, 
@@ -52,6 +64,8 @@ def main():
             (uwc.jurisdiction_type IN ('DISTRICT', 'SUB_DISTRICT', 'BLOCK') AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_DISTRICT_BLOCK_IDS])}))
             OR
             (uwc.jurisdiction_type = 'POLICE_STATION' AND uwc.jurisdiction_id IN ({','.join([f"'{x}'" for x in VALID_PS_IDS])}))
+            OR
+            uwc.user_id::varchar IN ({','.join([f"'{x}'" for x in EXTRA_USER_IDS])})
         )
         """
         
