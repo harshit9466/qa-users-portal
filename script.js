@@ -68,7 +68,7 @@ function applyFilters() {
 
     const filtered = allUsers.filter(u => {
         const jurName = JUR_NAMES[u.jurisdictionId] || "";
-        const matchesSearch = (u.firstName + ' ' + u.lastName + ' ' + u.email + ' ' + u.jurisdictionId + ' ' + jurName + ' ' + (u.userId || '')).toLowerCase().includes(searchTerm);
+        const matchesSearch = (u.firstName + ' ' + u.lastName + ' ' + u.email + ' ' + u.jurisdictionId + ' ' + jurName + ' ' + (u.designationCode || '') + ' ' + (u.userId || '')).toLowerCase().includes(searchTerm);
         const matchesRole = role === 'ALL' || u.roleCode === role;
         const matchesJur = jurisdiction === 'ALL' || u.jurisdictionType === jurisdiction;
         return matchesSearch && matchesRole && matchesJur;
